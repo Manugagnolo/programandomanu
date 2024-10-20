@@ -1,0 +1,88 @@
+
+/* Estilos generales para el formulario */
+form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+}
+
+#encuestaForm h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+#encuestaForm p {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+#encuestaForm label {
+    display: block;
+    margin: 12px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+
+#encuestaForm input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #007bff; /* Color personalizado para los radio buttons */
+}
+
+/* Campo de texto "Otro/s" */
+#encuestaForm input[type="text"] {
+    padding: 8px;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 70%;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.05);
+    transition: border-color 0.3s ease;
+}
+
+#encuestaForm input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Estilo del botón de enviar */
+#encuestaForm input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+#encuestaForm input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del contenedor de resultado */
+#resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+#resultado p {   
+ color: #333;   
+}

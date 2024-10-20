@@ -1,0 +1,48 @@
+/* Contenedor principal */
+.entrevista {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    background-color: #f9f9f9; /* Color de fondo */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Título */
+.entrevista h3 {
+    font-family: 'Arial', sans-serif; /* Fuente personalizada */
+    color: #333; /* Color del texto */
+    font-size: 24px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Espaciado inferior */
+    text-align: center; /* Alinear al centro */
+}
+
+/* Línea horizontal */
+.entrevista hr {
+    border: 1px solid #ddd; /* Color y grosor de la línea */
+    margin: 20px 0; /* Espaciado vertical */
+}
+
+.videos {
+    position: relative; /* Posicionamiento relativo para el contenedor */
+    width: 100%; /* Ancho completo */
+    padding-bottom: 56.25%; /* Proporción de 16:9 (altura/ancho) */
+    height: 0; /* Altura cero inicialmente */
+    overflow: hidden; /* Evitar desbordamientos */
+}
+
+.videos iframe {
+    position: absolute; /* Posicionamiento absoluto para el iframe */
+    top: 0; /* Alinear arriba */
+    left: 0; /* Alinear a la izquierda */
+    width: 100%; /* Ancho completo */
+    height: 80%; /* Altura completa */
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 0.3s; /* Transición suave para el hover */
+}
+
+
+/* Efecto hover para el iframe */
+.videos iframe:hover {
+    transform: scale(1.05); /* Aumentar el tamaño en hover */
+}

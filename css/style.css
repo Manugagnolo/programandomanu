@@ -1,167 +1,99 @@
 * {
-
     margin: 0;
-    
     padding: 0;
-    
     box-sizing: border-box;
-    
-    }
-    
-    
-    body {
-    
+}
+
+body {
     font-family: Arial, sans-serif;
-    
-    }
-    
-    
-    .parent {
-    
+}
+
+.parent {
     display: grid;
-    
     grid-template-columns: repeat(12, 1fr);
-    
     grid-template-rows: repeat(12, 1fr);
-    
     gap: 2px;
-    
     height: 100vh;
-    
-    }
-    
-    
-    .div1 {
-    
+}
+
+.div1 {
     grid-column: span 2 / span 2;
-    
     grid-row: span 12 / span 12;
-    
     overflow: hidden;
-    
     position: relative;
-    
-    background-color:rgb(112, 12, 112);
-    
-      
-    }
-    
-    
-    .sidebar {
-    
+    background-color: #2e1e45;
+}
+
+.sidebar {
     padding: 20px;
-    
     display: flex;
-    
     flex-direction: column;
-    
     align-items: center;
-    
-    }
-    
-    
-    .logo {
-    
+}
+
+.logo {
     margin-bottom: 20px;
-    
-    }
-    
-    
-    .logo-img {
-    
+}
+
+.logo-img {
     width: 200px; /* Ajusta el tamaño de la imagen */
-    
     height: 200px;
-    
     border-radius: 50%; /* Convierte la imagen en un círculo */
-    
     object-fit: cover; /* Ajusta la imagen dentro del contenedor circular */
-    
+}
 
-    
-    }
-    
-    
-    
-    
-    .sidebar ul {
-    
+
+.sidebar ul {
     list-style: none;
-    
-    }
-    
-    
-    .sidebar ul li {
-    
+}
+
+.sidebar ul li {
     margin: 15px 0;
-    
-    }
-    
-    
-    .sidebar ul li a {
-    
+}
+
+.sidebar ul li a {
     color: white;
-    
     text-decoration: none;
-    
     font-size: 18px;
-    
-    }
-    
-    
-    .div2 {
-    
+}
+
+.div2 {
     grid-column: span 12 / span 12;
-    
     grid-row: span 2 / span 2;
-    
     grid-column-start: 3;
-    
-    background-color: rgb(50, 103, 73);
-    
+    grid-row-start: 1;
+    color: green;
     display: flex;
-    
     justify-content: center;
-    
     align-items: center;
-    
-    }
-    
-    
-    .div2 h1 {
-    
+}
+
+.div2 h1 {
     font-size: 28px;
-    
     text-transform: uppercase;
-    
-    color: white;
-    
-    }
-    
-    
-    .div3 {
-    
+    color: #612a52;
+}
+
+.div3 {
     grid-column: span 12 / span 12;
-    
     grid-row: span 10 / span 10;
-    
     grid-column-start: 3;
-    
     grid-row-start: 3;
-    
     color: white;
-    
     padding: 20px;
-    
     overflow-y: auto;
-    
-    }
-    
-    
-    .div3 p{
-    
+    background-color:#9A9B73;
+}
+
+.div3 p{
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 22px;
+    margin-right: 40px;
+    font-family: 'Lucida Sans';
+}
+
+.pensadores h2{
     color: black;
-    
-    }
-
-
+    margin-top: 100px
+}

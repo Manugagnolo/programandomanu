@@ -1,0 +1,17 @@
+[
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEYURIxZlgAvV9QKmrzv-xsrr5TLPvAi4CLwwB4EtmghqOrmk",
+        "title": "Karl Marx",
+        "description": "Filósofo, economista, sociólogo y político alemán."
+    },
+    {
+        "image": "https://hablaconlahistoria.es/wp-content/uploads/2024/03/max-weber.webp",
+        "title": "Max Weber",
+        "description": "Sociólogo, jurista y economista alemán."
+    },
+    {
+        "image": "https://sociologiaifdtbo.wordpress.com/wp-content/uploads/2013/05/emiledurkheim.jpg?w=254&h=440",
+        "title": "Émile Durkheim",
+        "description": "Estableció formalmente la sociología como disciplina académica y, junto con Karl Marx y Max Weber, es considerado uno de los padres fundadores de dicha ciencia."
+    }
+]

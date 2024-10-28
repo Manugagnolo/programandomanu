@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="stylesheet" href="/css/Contacto.css">
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> <!-- Font Awesome -->
+</head>
+
+<body>
+    <div class="parent">
+        <!-- Barra lateral -->
+        <div class="div1">
+            <div class="sidebar">
+                <div class="logo">
+                    <a href="/index.html">
+                        <img src="/media/logo.png" alt="Logo" class="logo-img">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="/templates/pensadores.html">Sociología de la Educación: consideraciones de los clásicos</a></li>
+                    <li><a href="/templates/entrevista.html">Metodología de la Investigación: entrevista a Ruth Sautu</a></li>
+                    <li><a href="/templates/encuesta.html">Temas de Investigación</a></li>
+                    <li><a href="/templates/bourdieu.html">Caminando con Bourdieu: videos y entrevistas</a></li>
+                    <li><a href="/templates/feminismos.html">Feminismos</a></li>
+                    <li><a href="/templates/catanzaro.html"> Crítica hoy. Entrevista a Gisela Catanzaro</a></li>
+                    <li><a href="/templates/trivia.html">Trivia Sociológica</a></li>
+                    <li><a href="/templates/contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Título principal -->
+        <div class="div2">
+            <h1>Continente Sociológico</h1>
+        </div>
+
+        <!-- Sección de contacto -->
+                <div class="div3">
+                <h2>Contacto</h2>
+                <p>Estamos aquí para ayudarte. No dudes en ponerte en contacto con nosotros si tienes alguna propuesta, pregunta o comentario.</p>
+    
+                <div class="contact-section">
+                    <h3>Sobre nosotros</h3>
+                    <p>Continente Sociológico es una plataforma dedicada a la reflexión crítica sobre la sociedad actual, para creación, apoyo y difusión de proyectos sociológicos.</p>
+                </div>
+    
+                <div class="contact-details">
+                    <h3>Detalles de Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> <strong>Email:</strong> continentesociologico@gmail.com</li>
+                        <li><i class="fas fa-phone"></i> <strong>Teléfono:</strong> +542392492128</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <strong>Dirección:</strong> Ciudad de Buenos Aires</li>
+                    </ul>
+                </div>
+    
+                <div class="contact-form">
+                    <h3>Envía un mensaje</h3>
+                    <form id="contactForm">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+       
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+       
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+       
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <div id="formDataDisplay" style="margin-top: 20px; color: #2e1e45; font-size: 1.1em;">
+                        <!-- Aquí se mostrarán los datos capturados -->
+                    </div>
+                </div>
+            </div>
+    
+
+
+            <script src="../js/contacto.js"></script>   
+</body>
+
+</html>
+

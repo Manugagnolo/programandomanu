@@ -19,9 +19,11 @@ body {
 .div1 {
     grid-column: span 2 / span 2;
     grid-row: span 12 / span 12;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     background-color: #2e1e45;
+    
+
 }
 
 .sidebar {
@@ -73,7 +75,6 @@ body {
     text-transform: uppercase;
     color: #612a52;
 }
-
 .div3 {
     grid-column: span 12 / span 12;
     grid-row: span 10 / span 10;
@@ -82,18 +83,49 @@ body {
     color: white;
     padding: 20px;
     overflow-y: auto;
-    background-color:#9A9B73;
 }
 
 .div3 p{
-    color: whitesmoke;
-    text-align: justify;
-    font-size: 22px;
-    margin-right: 40px;
-    font-family: 'Lucida Sans';
+    color: black;
 }
+
 
 .pensadores h2{
     color: black;
     margin-top: 100px
+}
+.div33 {
+    grid-column: span 12 / span 12;
+    grid-row: span 10 / span 10;
+    grid-column-start: 3;
+    grid-row-start: 3;
+    background-color: rgba(248, 248, 248, 0.95); /* Fondo claro con un poco de transparencia */
+    padding: 30px;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow-y: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transición suave */
+    background-image: url('https://diracad.bogota.unal.edu.co/images/unalaspirante/pregrados/SOCIOLOGIA.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Cubrir todo el fondo */
+    background-position: center; /* Centrar la imagen */
+    color: white; /* Color de texto blanco para contraste */
+}
+.div33 p {
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente para el texto */
+    padding: 20px;
+    border-radius: 10px;
+    color: white; /* Texto blanco para el contraste con el fondo */
+    font-size: 16px;
+    line-height: 1.6; /* Espaciado entre líneas mejorado */
+    font-family: 'Georgia', serif; /* Fuente serif para un estilo más elegante */
+    margin-bottom: 15px; /* Espaciado entre párrafos */
+    backdrop-filter: blur(5px); /* Agrega un efecto de desenfoque al fondo */
+}
+
+/* Imagen dentro del contenido */
+.div33 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
 }

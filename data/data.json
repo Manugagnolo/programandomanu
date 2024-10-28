@@ -2,16 +2,42 @@
     {
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuEYURIxZlgAvV9QKmrzv-xsrr5TLPvAi4CLwwB4EtmghqOrmk",
         "title": "Karl Marx",
-        "description": "Filósofo, economista, sociólogo y político alemán."
+        "description": "Filósofo, economista, sociólogo y político alemán.",
+        "enfasis":"La acción humana transformadora",
+        "listItems": [
+            "Instrumento de la clase dominante",
+            "Facilita incorporación al trabajo productivo",
+            "Desconfianza del rol del Estado (adoctrinamiento)",
+            "Instrucción: Transferencia de habilidades y conocimientos",
+            "Mecanismos de distribución en estructura económica y social= desigualdad social"
+        ]
     },
     {
         "image": "https://hablaconlahistoria.es/wp-content/uploads/2024/03/max-weber.webp",
         "title": "Max Weber",
-        "description": "Sociólogo, jurista y economista alemán."
+        "description": "Sociólogo, jurista y economista alemán.",
+        "enfasis":"La Sociología comprensiva",
+        "listItems": [
+            "Comprensión de motivos y fines que dirigen la acción social individual",
+            "La interacción social como satisfactor de necesidades individuales y realización de valores morales",
+            "Distribuir a los individuos en favor de las estructuras y necesidades sociales, económicas y políticas de la sociedad",
+            "Similitud en aspectos de la génesis del sistema educativo y el religioso",
+            "Dominación Carismática/Educación carismática. Dominacion Tradicional/Educación Humanista. Dominación Legal-Racional/Educación especializada"
+        ]
     },
     {
         "image": "https://sociologiaifdtbo.wordpress.com/wp-content/uploads/2013/05/emiledurkheim.jpg?w=254&h=440",
         "title": "Émile Durkheim",
-        "description": "Estableció formalmente la sociología como disciplina académica y, junto con Karl Marx y Max Weber, es considerado uno de los padres fundadores de dicha ciencia."
+        "description": "Estableció formalmente la sociología como disciplina académica y, junto con Karl Marx y Max Weber, es considerado uno de los padres fundadores de dicha ciencia.",
+        "enfasis":"La educación como hecho social y moral",
+        "listItems": [
+            "Tradición Positivista",
+            "El hecho social adquiere carácter objetivo",
+            "Educación tiene una doble función; homogeneizadora y diferenciadora",
+            "Doble aspecto: Una y múltiple",
+            "El hombre es lo que la sociedad quiere que sea",
+            "La educación facilita la adaptación del niño a las pretensiones de la sociedad en la que nace (Socialización)",
+            "Función integradora: impone doctrina y sistema moral"
+        ]
     }
 ]
